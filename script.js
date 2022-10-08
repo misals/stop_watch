@@ -29,6 +29,7 @@ function timer () {
     time_ele.innerText = `${hours}:${mins}:${secs}`;
 }
 
+// Function to start timer
 function start() {
     if(interval) {
         return;
@@ -37,11 +38,13 @@ function start() {
     interval = setInterval(timer, 1000);
 }
 
+// Function to stop timer
 function stop() {
     clearInterval(interval);
     interval = null;
 }
 
+// Function to reset timer
 function reset() {
     stop();
     seconds = 0;
