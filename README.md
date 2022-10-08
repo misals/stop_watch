@@ -1,5 +1,5 @@
 # stop_watch
-Created a stop watch page using HTML, CSS and JavaScript.
+Created a Stop Watch Web page using HTML, CSS and JavaScript.
 
 
 
